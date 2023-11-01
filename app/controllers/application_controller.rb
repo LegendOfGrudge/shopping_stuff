@@ -10,6 +10,4 @@ class ApplicationController < ActionController::Base
   def visit_count
     session[:visit_count]
   end
-
-  @visit_count = session[:visit_count]
 end
